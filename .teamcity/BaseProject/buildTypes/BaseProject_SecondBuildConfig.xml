@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="f5510e50-5bf9-467c-9179-0df09bd7e557" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>Second build config</name>
+  <description>This is the second build config</description>
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_4" name="Step B - 1" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="echo Build config 2 step 1; date " />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings />
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
