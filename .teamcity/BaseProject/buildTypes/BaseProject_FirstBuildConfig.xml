@@ -1,4 +1,4 @@
-1<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="f5510e50-5bf9-467c-9179-0df09bd7e557" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
   <name>First build config</name>
   <description>This is the first build config</description>
