@@ -7,7 +7,8 @@
     <build-runners>
       <runner id="RUNNER_2" name="Step 1" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="echo Build config 1 step 1" />
+          <param name="script.content"><![CDATA[echo Build config 1 step 1
+date > date.txt]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
