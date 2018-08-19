@@ -13,7 +13,7 @@ object Project : Project({
     id = "BaseProject"
     parentId = "_Root"
     name = "Base Project"
-    description = "The base project where new projects are created"
+    description = "The base project where new teamcity projects are created"
 
     vcsRoot(BaseProject_GithubTeamcityExperiments)
 
