@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="BaseProject" uuid="5189d270-bbaa-49d8-98e4-da97cd5c2845" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
   <name>Subproject 1</name>
-  <description>First subproject</description>
+  <description>First subproject of base project</description>
   <parameters />
   <cleanup />
 </project>
