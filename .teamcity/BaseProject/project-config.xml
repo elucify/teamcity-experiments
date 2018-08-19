@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="1bf64add-0a2b-4077-ab16-d790e4daf97b" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
   <name>Base Project</name>
-  <description>The base project to create projects in</description>
+  <description>The base project where new projects are created</description>
   <parameters />
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="versionedSettings">
