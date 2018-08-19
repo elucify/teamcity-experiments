@@ -26,6 +26,6 @@ object BaseProject_FirstBuildConfig : BuildType({
             id = "RUNNER_2"
             scriptContent = "echo Build config 1 step 2"
         }
-        stepsOrder = arrayListOf("RUNNER_1", "RUNNER_2", "RUNNER_5", "RUNNER_6")
+        stepsOrder = arrayListOf("RUNNER_1", "RUNNER_5", "RUNNER_6", "RUNNER_2")
     }
 })
